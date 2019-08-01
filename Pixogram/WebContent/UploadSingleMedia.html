@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sign Up</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+			<div class="navbar-brand abs">
+				<button type="button" class="btn btn-primary">Upload Media</button>
+				<button type="button" class="btn btn-primary">My Media</button>
+				<button type="button" class="btn btn-primary">Followers/Following</button>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#collapsingNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="navbar-collapse collapse" id="collapsingNavbar">
+				<a href="#"><img src="./images/logo.png" alt="src"
+					class="logo_icon" /></a>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<button type="button" class="btn btn-primary">Account</button>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<nav class="nav2">
+		<img class="profile_image" alt="profile_image"
+			src="./images/profile.jpg"> <span style="margin-left: 100px;">Welcome
+			**********"</span>
+	</nav>
+	<div class="MainContent">
+		<form action="#" name="sign_in_form">
+			<table align="center" style="width: 30%; float: left;">
+				<tr>
+					<td>Account</td>
+				</tr>
+				<tr></tr>
+				<tr>
+					<td><button type="button" class="btn btn-secondary"
+							style="width: 100px;"
+							onClick="location.href='UploadSingleMedia.html'">Single
+							Media</button></td>
+				</tr>
+				<tr>
+					<td><button type="button" class="btn btn-secondary"
+							style="width: 100px;"
+							onClick="location.href='UploadMultipleMedia.html'">Multiple
+							Media</button></td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<td><h3>New Media Page</h3></td>
+				</tr>
+				<tr>
+					<td colspan="3">Browse</td>
+					<td colspan="2" rowspan="2"><button type="button"
+							class="btn btn-secondary" style="width: 100px;"
+							onClick="location.href='#'">Browse</button></td>
+					<td></td>
+					<td colspan="2" rowspan="2"><button type="button"
+							class="btn btn-secondary" style="width: 100px;"
+							onClick="location.href='#'">Upload</button></td>
+				</tr>
+				<tr></tr>
+				<tr>
+					<td colspan="3">Title</td>
+					<td colspan="5"><input type="text" id="title" name="title"
+						style="width: 374px;">
+				</tr>
+				<tr>
+					<td colspan="3">Description</td>
+					<td colspan="5"><textarea rows="2" cols="50"></textarea>
+				</tr>
+				<tr>
+					<td colspan="3">Tags</td>
+					<td colspan="5"><textarea rows="2" cols="50"></textarea>
+				</tr>
+				<tr>
+					<td colspan="3">Effects</td>
+					<td colspan="5"><button type="button" name="sepia"
+							Value="Sepia">Sepia</button>
+						<button type="button" name="grey" Value="Grey">Grey</button>
+						<button type="button" name="brightness" Value="Brightness">Brightness</button>
+						<button type="button" name="contrast" Value="Contrast">Contrast</button>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<div class="footer">
+		<p>Copyright &copy; 2019</p>
+	</div>
+</body>
+</html>

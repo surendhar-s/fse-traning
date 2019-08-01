@@ -1,0 +1,81 @@
+@media ( min-width : 768px) {
+	.navbar-brand.abs {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		text-align: center;
+	}
+}
+
+.logo_icon, .profile_image {
+	width: 130px;
+	height: 50px;
+}
+
+.navbar-expand-md {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.sign_in_page {
+	width: 170px;
+}
+
+.nav2 {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.profile_image {
+	widows: 100px;
+	height: 100px;
+}
+
+table {
+	width: 50%;
+}
+
+.MainContent {
+	margin-left: 50px;
+	margin-right: 50px;
+	width: auto;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-align: center;
+}
+
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
